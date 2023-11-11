@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.manu{
+    background-color: white;
+    
+    
+}
+.manu > ul{
+    display: flex;
+    list-style: none ;
+    justify-content: center;
+    
+
+}
+.manu ul li a{ 
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    color:black;
+
+}
+.manu ul li a:hover{
+    background-color:grey;
+    color:red;
+}
+.manu ul ul{
+    position: absolute;
+    list-style: none;
+    z-index: 1;
+    top: 100%;
+    left: 0%;
+    display: none;
+}
+.manu ul li:hover ul{
+    display: block;
+}
+.manu ul li{
+    position: relative ;
+}
+
+
+.box{
+    width: 239px;
+    height: 254px;
+    background-color: aqua;
+    margin: 100px auto;
+    position: relative;
+    
+}
+.inner-box{
+    height: 75px;
+    width: 75px;
+    background-color: black;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}
